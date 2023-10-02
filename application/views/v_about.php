@@ -1,6 +1,7 @@
 <section>
+    
     <h1><?php echo $judul ?></h1>
-    <br>
+    
     <h4>Nama</h4>
     <ul type="disc">
         <li>Nama Depan : Imam</li>
@@ -22,4 +23,5 @@
         <li>Bulutangkis</li>
         <li>Catur</li>
     </ul>
+    <br>
 </section>
