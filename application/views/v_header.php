@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Web Program II | Merancang Template sederhana dengan Codeigniter</title>
-   <link rel="stylesheet" href="assets/css/stylebuku.css">
+   <link rel="stylesheet" href="<?= base_url() ?>assets/css/stylebuku.css">
 </head>
 <body>
     <div id="wrapper">
