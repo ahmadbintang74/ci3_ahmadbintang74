@@ -7,14 +7,14 @@ class Latihan1 extends CI_Controller
         //$this->load->view('view-latihan1');
     }
 
-    public function penjumlahan($nilai1, $nilai2)
+    public function penjumlahan($n1, $n2)
     {
         $this->load->model('Model_latihan1');
 
-        $data['nilai 1'] = $nilai1;
-        $data['nilai 2'] = $nilai2;
-        $data['hasil'] = $this->Model_latihan1->jumlah($nilai1, $nilai2);
+        $data['nilai1'] = $n1;
+        $data['nilai2'] = $n2;
+        $data['hasil'] = $this->Model_latihan1->jumlah($n1, $n2);
 
-        $this->load->view('view-latihan');
+        $this->load->view('view-latihan', $data);
     }
 }
